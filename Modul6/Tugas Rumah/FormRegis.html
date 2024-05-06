@@ -5,54 +5,64 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Form Registrasi</title>
 <style>
-  body {
-    background-color: #b4cae9;
-    font-family: Arial, sans-serif;
-  }
 
-  .container {
+body {
+    background-color: #ffc4dd; /* Warna latar belakang */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Font yang lebih lucu */
+}
+
+.container {
     max-width: 400px;
-    background-color: #707e92;
+    background-color: #ffccff; /* Warna latar belakang kontainer */
     padding: 20px;
     margin: 50px auto;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+    border-radius: 20px; /* Sudut bulat */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Bayangan halus */
+}
 
-  h2 {
+h2 {
     text-align: center;
-  }
+    color: #ff0066; /* Warna judul */
+    font-size: 28px; /* Ukuran font yang lebih besar */
+    margin-bottom: 20px; /* Ruang bawah yang lebih besar */
+}
 
-  input[type="text"],
-  input[type="email"],
-  input[type="password"],
-  select {
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
     width: 100%;
     padding: 10px;
     margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 2px solid #ff66b2; /* Warna border input */
+    border-radius: 10px; /* Sudut bulat */
     box-sizing: border-box;
-  }
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Font yang lebih lucu */
+}
 
-  button[type="submit"] {
+button[type="submit"] {
     width: 100%;
-    background-color: #000000;
+    background-color: #ff66b2; /* Warna tombol */
     color: white;
-    padding: 10px 20px;
+    padding: 12px 20px;
     margin: 8px 0;
     border: none;
-    border-radius: 4px;
+    border-radius: 15px; /* Sudut bulat */
     cursor: pointer;
-  }
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Font yang lebih lucu */
+    font-size: 18px; /* Ukuran font yang lebih besar */
+    transition: background-color 0.3s; /* Efek transisi saat hover */
+}
 
-  button[type="submit"]:hover {
-    background-color: #45a049;
-  }
+button[type="submit"]:hover {
+    background-color: #ff4d94; /* Warna tombol saat hover */
+}
 
-  .error {
-    color: red;
-  }
+.error {
+    color: #ff0000; /* Warna teks error */
+    font-size: 14px; /* Ukuran font yang lebih kecil */
+}
+
 </style>
 </head>
 <body>
