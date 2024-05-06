@@ -1,0 +1,51 @@
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    border: 4px solid #98c5f9; /* Ubah warna border */
+    border-radius: 15px;
+    padding: 30px;
+    background-color: #f2f2f2; /* Tambahkan warna latar belakang */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Ubah warna shadow */
+}
+
+#display {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 25xpx; /* Ubah ukuran font */
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Ubah menjadi 4 kolom */
+    grid-gap: 10px; /* Ubah jarak antar grid */
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    background-color: #9990eb; /* Ubah warna tombol */
+    color: #fff; /* Ubah warna teks */
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px #dc96ff; /* Tambahkan efek shadow */
+    transition: background-color 0.2s, box-shadow 0.2s; /* Tambahkan efek transisi */
+}
+
+button:hover {
+    background-color: #a8effd; /* Ubah warna tombol saat hover */
+    box-shadow: 0 2px #a8effd; /* Ubah efek shadow saat hover */
+}
+
+#paragraf {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #bebaf6; /* Ubah warna teks jika diperlukan */
+}
